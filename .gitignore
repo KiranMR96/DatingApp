@@ -12,6 +12,8 @@
 *.db
 *.db-*
 appsettings.json
+ssl
+DatingApp.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -443,3 +445,5 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+DatingApp.txt
+DatingApp.txt
