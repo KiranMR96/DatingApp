@@ -3,3 +3,11 @@ dotnet ef database update
 
 ng add ngx-bootstrap 
 npm install font-awesome
+
+
+dotnet ef migrations add UserPasswordAdded
+dotnet ef database update
+
+dotnet ef database drop
+
+
