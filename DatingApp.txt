@@ -1,3 +1,5 @@
+https://www.infoworld.com/category/application-development/
+
 dotnet ef migrations add InitialCreate -o Data/Migrations
 dotnet ef database update
 
@@ -28,3 +30,7 @@ ng g c lists --skip-tests
 ng g c messages --skip-tests
 ng g guard auth --skip-tests
 ng g m shared --flat
+ng g c test-errors --skip-tests
+ng g interceptor error --skip-tests
+ng g c not-found --skip-tests
+ng g c server-error --skip-tests
