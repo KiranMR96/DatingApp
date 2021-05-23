@@ -36,3 +36,9 @@ ng g c test-errors --skip-tests
 ng g interceptor error --skip-tests
 ng g c not-found --skip-tests
 ng g c server-error --skip-tests
+ng g s members --skip-tests
+ng g c member-card --skip-tests
+
+ng g interceptor jwt --skip-tests
+
+npm install @kolkov/ngx-gallery
