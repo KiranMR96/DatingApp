@@ -42,3 +42,14 @@ ng g c member-card --skip-tests
 ng g interceptor jwt --skip-tests
 
 npm install @kolkov/ngx-gallery
+
+ng g c member-edit --skip-tests
+ng g guard prevent-unsaved-changes --skip-tests
+
+npm install @angular/cdk
+ng add ngx-spinner  
+npm install ngx-spinner@^11.0.1
+import { NgxSpinnerModule } from 'ngx-spinner';
+
+ng g s busy --skip-tests
+ng g interceptor loading --skip-tests
