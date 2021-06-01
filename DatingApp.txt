@@ -53,3 +53,6 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 
 ng g s busy --skip-tests
 ng g interceptor loading --skip-tests
+
+ng g c photo-editor --skip-tests (in client)
+
