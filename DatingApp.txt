@@ -56,3 +56,5 @@ ng g interceptor loading --skip-tests
 
 ng g c photo-editor --skip-tests (in client)
 
+ng g c text-input --skip-tests (in _forms)
+ng g c date-input --skip-tests (in _forms)
